@@ -3,12 +3,19 @@ project:
   output-dir: docs
 
 website:
-  title: "My Portfolio"
+  title: "Mohammed Yusuf Shaikh"
   navbar:
     left:
       - href: index.qmd
         text: Home
+      - text: Projects
+        href: projects.qmd
+    right: 
       - about.qmd
+      - icon: github
+        href: https://yusuf365.github.io/My-Portfolio.github.io/
+      - icon: twitter
+      - icon: email
 
 format:
   html:
