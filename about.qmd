@@ -9,7 +9,7 @@ about:
       href: https://twitter.com
     - icon: email
       text: Email
-      href: mohammedyusuf.shaikh@mail.utoronto.ca
+      href: mailto:mohammedyusuf.shaikh@mail.utoronto.ca
       
 ---
 
