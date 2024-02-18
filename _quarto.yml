@@ -10,16 +10,16 @@ website:
         text: Home
       - text: Projects
         href: projects.qmd
+      - text: Resume
+        href: resume.qmd
     right: 
       - about.qmd
       - icon: github
         href: https://yusuf365.github.io/My-Portfolio.github.io/
-      - icon: twitter
-      - icon: email
 
 format:
   html:
-    theme: cosmo
+    theme: solar
     css: styles.css
     toc: true
 

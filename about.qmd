@@ -1,4 +1,18 @@
 ---
 title: "About"
+image: Profile.jpeg
+about:
+  template: jolla
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com
+    - icon: email
+      text: Email
+      href: mohammedyusuf.shaikh@mail.utoronto.ca
+      
 ---
 
+## Mohammed Yusuf Shaikh
+
+This is the contents of the about page.
