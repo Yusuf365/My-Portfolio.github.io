@@ -1,5 +1,5 @@
 ---
-title: "About Me"
+title: "Mohammmed Yusuf Shaikh"
 image: Profile.jpeg
 about:
   template: trestles
@@ -13,6 +13,9 @@ about:
     - icon: linkedin
       text: Linkedin
       href: https://www.linkedin.com/in/mohammed-yusuf-shaikh-5b564323b
+    - text: resume
+      icon: file-text
+      href: Resume.pdf
       
 ---
 

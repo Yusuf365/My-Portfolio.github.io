@@ -2,7 +2,7 @@
 title: "My Portfolio"
 image: Profile.jpeg
 about:
-  template:  jolla
+  template:  trestles
   image-shape: round
   image-width:  15em
   links: 

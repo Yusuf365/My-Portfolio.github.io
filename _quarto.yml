@@ -13,13 +13,23 @@ website:
       - text: Resume
         href: Resume.pdf
     right: 
-      - about.qmd
+      - text: "About me"
+        href: about.qmd
       - icon: github
         href: https://yusuf365.github.io/My-Portfolio.github.io/
+        
+  page-footer:
+    right: 
+      - text: "About me"
+        href: about.qmd
+      - text: "License"
+        href: license.qmd
+      - text: "Trademark"
+        href: trademark.qmd
 
 format:
   html:
-    theme: solar
+    theme: lumen
     css: styles.css
     toc: true
 
