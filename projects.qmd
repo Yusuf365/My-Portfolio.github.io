@@ -1,3 +1,27 @@
 ---
-title: "Projects"
+title: "Projects Portfolio"
+format: 
+  html:
+    theme: cosmo
+    css: styles.css
 ---
+
+## Featured Projects
+
+Here you can see a selection of my latest and greatest projects.
+
+- **Project 1**: Description and link to the project.
+- **Project 2**: Description and link to the project.
+- **Project 3**: Description and link to the project.
+
+### A Regional Econometric Analysis:  Minimum Wage and Unemployment Dynamics Post-Financial Crisis
+*Conducted an econometric analysis examining the impact of minimum wage changes on unemployment rates post-financial crisis in Ontario, Quebec, and British Columbia. The study utilized regression models to assess the relationship between minimum wage policies and unemployment trends, providing valuable insights into labor market dynamics within the selected provinces.*
+
+### Customer Segmentation Analysis
+*Implemented a K-means clustering algorithm to segment customers, which increased targeted marketing campaign success by 30%.*
+
+### Real-time Dashboard for Social Media Metrics
+*Created an interactive dashboard using Tableau that tracks social media engagement metrics, providing insights to the marketing team for strategic decision-making.*
+
+[Home](index.html) | [About](about.html) | [Resume](resume.html)
+

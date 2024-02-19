@@ -2,15 +2,43 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About Me",
     "section": "",
-    "text": "This is the contents of the about page."
+    "text": "Hello there! I’m Mohammed Yusuf Shaikh. A creative thinker, tech enthusiast, and an ever-curious mind at the intersection of technology and innovation. I spend my days exploring the vast landscape of data analysis & software development and my nights diving into the latest tech trends and gadgets.\n\n\nMy professional journey has been marked by numerous successful projects where data was at the forefront. I’ve had the privilege of working across various industries, from finance to IT, providing data visualization, predictive modeling, and strategic analysis.\n\n\n\nWhen I’m not coding, I enjoy street photography and exploring the world of literature.\n\n\n\nI’m always open to discussing new projects or opportunities. Reach out to me on Linkedin or via Email.\nHome | Projects | Resume"
   },
   {
-    "objectID": "about.html#mohammed-yusuf-shaikh",
-    "href": "about.html#mohammed-yusuf-shaikh",
-    "title": "About",
+    "objectID": "about.html#professional-journey",
+    "href": "about.html#professional-journey",
+    "title": "About Me",
     "section": "",
-    "text": "This is the contents of the about page."
+    "text": "My professional journey has been marked by numerous successful projects where data was at the forefront. I’ve had the privilege of working across various industries, from finance to IT, providing data visualization, predictive modeling, and strategic analysis."
+  },
+  {
+    "objectID": "about.html#personal-insights",
+    "href": "about.html#personal-insights",
+    "title": "About Me",
+    "section": "",
+    "text": "When I’m not coding, I enjoy street photography and exploring the world of literature."
+  },
+  {
+    "objectID": "about.html#lets-connect",
+    "href": "about.html#lets-connect",
+    "title": "About Me",
+    "section": "",
+    "text": "I’m always open to discussing new projects or opportunities. Reach out to me on Linkedin or via Email.\nHome | Projects | Resume"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects Portfolio",
+    "section": "",
+    "text": "Here you can see a selection of my latest and greatest projects.\n\nProject 1: Description and link to the project.\nProject 2: Description and link to the project.\nProject 3: Description and link to the project.\n\n\n\nConducted an econometric analysis examining the impact of minimum wage changes on unemployment rates post-financial crisis in Ontario, Quebec, and British Columbia. The study utilized regression models to assess the relationship between minimum wage policies and unemployment trends, providing valuable insights into labor market dynamics within the selected provinces.\n\n\n\nImplemented a K-means clustering algorithm to segment customers, which increased targeted marketing campaign success by 30%.\n\n\n\nCreated an interactive dashboard using Tableau that tracks social media engagement metrics, providing insights to the marketing team for strategic decision-making.\nHome | About | Resume"
+  },
+  {
+    "objectID": "projects.html#featured-projects",
+    "href": "projects.html#featured-projects",
+    "title": "Projects Portfolio",
+    "section": "",
+    "text": "Here you can see a selection of my latest and greatest projects.\n\nProject 1: Description and link to the project.\nProject 2: Description and link to the project.\nProject 3: Description and link to the project.\n\n\n\nConducted an econometric analysis examining the impact of minimum wage changes on unemployment rates post-financial crisis in Ontario, Quebec, and British Columbia. The study utilized regression models to assess the relationship between minimum wage policies and unemployment trends, providing valuable insights into labor market dynamics within the selected provinces.\n\n\n\nImplemented a K-means clustering algorithm to segment customers, which increased targeted marketing campaign success by 30%.\n\n\n\nCreated an interactive dashboard using Tableau that tracks social media engagement metrics, providing insights to the marketing team for strategic decision-making.\nHome | About | Resume"
   }
 ]
