@@ -1,5 +1,20 @@
 ---
 title: "My Portfolio"
+image: Profile.jpeg
+about:
+  template:  jolla
+  image-shape: round
+  image-width:  15em
+  links: 
+    - text: Email
+      icon: email
+      href: mailto:mohammedyusuf.shaikh@mail.utoronto.ca
+    - text: Github
+      icon: github
+      href: https://github.com/
+    - text: resume
+      icon: file-text
+      href: Resume.pdf
 ---
 
 

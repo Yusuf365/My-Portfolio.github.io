@@ -10,18 +10,27 @@ format:
 
 Here you can see a selection of my latest and greatest projects.
 
-- **Project 1**: Description and link to the project.
-- **Project 2**: Description and link to the project.
-- **Project 3**: Description and link to the project.
-
 ### A Regional Econometric Analysis:  Minimum Wage and Unemployment Dynamics Post-Financial Crisis
-*Conducted an econometric analysis examining the impact of minimum wage changes on unemployment rates post-financial crisis in Ontario, Quebec, and British Columbia. The study utilized regression models to assess the relationship between minimum wage policies and unemployment trends, providing valuable insights into labor market dynamics within the selected provinces.*
+*Conducted an econometric analysis examining the impact of minimum wage changes on unemployment rates post-financial crisis in Ontario, Quebec, and British Columbia. The analysis leverages STATA and Python for data processing and statistical modeling, facilitating a comprehensive examination of regional economic trends and policy impacts. The study utilized regression models to assess the relationship between minimum wage policies and unemployment trends, providing valuable insights into labor market dynamics within the selected provinces.*
 
-### Customer Segmentation Analysis
-*Implemented a K-means clustering algorithm to segment customers, which increased targeted marketing campaign success by 30%.*
+### Data Analysis of U.S. Domestic Airfare Dynamics: Market Concentration and Passenger Volume (1997-2000)
+*Explore the intricate relationship between market concentration, passenger volume, and airfare dynamics in the U.S. domestic airline industry during the late 1990s and early 2000s. Leveraging panel data sourced from the U.S. Department of Transportation, this econometric analysis investigates the factors influencing average one-way airfare across 1149 domestic flight routes over four years. STATA is utilized as the primary tool for data analysis, enabling a comprehensive exploration of factors shaping airfare trends in this pivotal era of the aviation industry.*
 
-### Real-time Dashboard for Social Media Metrics
-*Created an interactive dashboard using Tableau that tracks social media engagement metrics, providing insights to the marketing team for strategic decision-making.*
+### Salary Analysis and Marginal Revenue Product Evaluation of Miami Heat Players (2021-22 NBA Season)
+*Evaluate the economic landscape of the Miami Heat basketball team during the 2021-22 NBA season through a meticulous analysis conducted using Excel. Delve into player salaries and Marginal Revenue Product (MRP) evaluation, unveiling insights into player valuation and team financial dynamics within the professional sports arena.*
+
+### Analyzing the Impact of Academic Advising on Student Success: A Study with a Small Sample at the University of Toronto
+
+*This project employs R and Python for data analysis to examine the relationship between academic advising and student success at the University of Toronto. Despite a limited sample size, the study utilizes statistical techniques such as hypothesis testing, linear regression, and factor analysis to explore correlations between advising utilization, communication effectiveness, and timely graduation. The findings aim to offer insights into the impact of academic advising on student outcomes, informing potential strategies for improving academic support services.*
+
+### Exploring Urban Crime Dynamics: Insights from Toronto Police Annual Statistical Report
+
+*Delve into Toronto's crime landscape from 2014 to 2022 with this analytical exploration based on the Toronto Police Annual Statistical Report. Uncover trends, patterns, and demographic insights using R language, offering valuable perspectives to shape crime prevention policies and strategies for enhancing public safety*
+
+
+
+
+
 
 [Home](index.html) | [About](about.html) | [Resume](resume.html)
 
