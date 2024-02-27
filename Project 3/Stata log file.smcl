@@ -1,0 +1,167 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}\\Client\E$\OneDrive - University of Toronto\ECO375_2\Stata log file.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}23 Nov 2022, 21:49:07
+
+{com}. use "\\Client\E$\OneDrive - University of Toronto\ECO375_2\Shaikh_Sun.DTA"
+
+. use "\\Client\E$\OneDrive - University of Toronto\ECO375_2\airfare.dta"
+
+. do "\\Client\E$\OneDrive - University of Toronto\ECO375_2\Shaik_Sun.do"
+{txt}
+{com}. *xtset: https://www.stata.com/manuals/xtxtset.pdf
+. *Linear fixed- and random-effects models: https://www.stata.com/features/overview/linear-fixed-and-random-effects-models/
+. *xtreg: https://www.stata.com/manuals/xtxtreg.pdf
+. *hausman test: https://www.stata.com/manuals/rhausman.pdf
+. *Panel Data Analysis Fixed and Random Effects using Stata: https://www.princeton.edu/~otorres/Panel101.pdf
+. *esttab Multiple regression table in stata: http://repec.org/bocode/e/estout/esttab.html
+. 
+. *Fixed effects regression is a method for controlling for omitted variables in panel data when the omitted variables vary across entities (states) but do not change over time.
+. 
+. set more off
+{txt}
+{com}. 
+. cd "/Users/45635/Desktop/UT/F ECO375/Project"
+{err}unable to change to /Users/45635/Desktop/UT/F ECO375/Project
+{txt}{search r(170), local:r(170);}
+
+end of do-file
+
+{search r(170), local:r(170);}
+
+{com}. do "C:\Users\LOCAL_~1\Temp\9\STD4b0_000000.tmp"
+{txt}
+{com}. *xtset: https://www.stata.com/manuals/xtxtset.pdf
+. *Linear fixed- and random-effects models: https://www.stata.com/features/overview/linear-fixed-and-random-effects-models/
+. *xtreg: https://www.stata.com/manuals/xtxtreg.pdf
+. *hausman test: https://www.stata.com/manuals/rhausman.pdf
+. *Panel Data Analysis Fixed and Random Effects using Stata: https://www.princeton.edu/~otorres/Panel101.pdf
+. *esttab Multiple regression table in stata: http://repec.org/bocode/e/estout/esttab.html
+. 
+. *Fixed effects regression is a method for controlling for omitted variables in panel data when the omitted variables vary across entities (states) but do not change over time.
+. 
+. 
+. 
+. histogram passen
+{txt}(bin={res}36{txt}, start={res}2{txt}, width={res}235.97222{txt})
+{res}{txt}
+{com}. 
+. *create new variable concenpct which is concen*100 (so market concentration with unit percentage) so it's easier to interpret coefficients
+. 
+. gen concenpct = concen*100
+{txt}
+{com}. 
+. *summarize dataset
+. 
+. summarize dist passen fare ldist lfare ldistsq lpassen concenpct
+
+{txt}    Variable {c |}        Obs        Mean    Std. Dev.       Min        Max
+{hline 13}{c +}{hline 57}
+{space 8}dist {c |}{res}      4,596     989.745    611.8315         95       2724
+{txt}{space 6}passen {c |}{res}      4,596    636.8242         812          2       8497
+{txt}{space 8}fare {c |}{res}      4,596    178.7968    74.88151         37        522
+{txt}{space 7}ldist {c |}{res}      4,596    6.696482    .6593177   4.553877   7.909857
+{txt}{space 7}lfare {c |}{res}      4,596    5.095601    .4363999   3.610918   6.257668
+{txt}{hline 13}{c +}{hline 57}
+{space 5}ldistsq {c |}{res}      4,596    45.27747    8.726898   20.73779   62.56583
+{txt}{space 5}lpassen {c |}{res}      4,596    6.017027    .8839873   .6931472   9.047468
+{txt}{space 3}concenpct {c |}{res}      4,596    61.01149     19.6435      16.05        100
+{txt}
+{com}. 
+. *Table
+. tabstat year dist passen fare bmktshr ldist lfare ldistsq, statistics( count mean sd max min ) columns(statistics)
+
+{txt}{ralign 12:variable} {...}
+{c |}         N      mean        sd       max       min
+{hline 13}{c +}{hline 50}
+{ralign 12:year} {...}
+{c |}{...}
+ {res}     4596    1998.5  1.118156      2000      1997
+{txt}{ralign 12:dist} {...}
+{c |}{...}
+ {res}     4596   989.745  611.8315      2724        95
+{txt}{ralign 12:passen} {...}
+{c |}{...}
+ {res}     4596  636.8242       812      8497         2
+{txt}{ralign 12:fare} {...}
+{c |}{...}
+ {res}     4596  178.7968  74.88151       522        37
+{txt}{ralign 12:bmktshr} {...}
+{c |}{...}
+ {res}     4596  .6101149   .196435         1     .1605
+{txt}{ralign 12:ldist} {...}
+{c |}{...}
+ {res}     4596  6.696482  .6593177  7.909857  4.553877
+{txt}{ralign 12:lfare} {...}
+{c |}{...}
+ {res}     4596  5.095601  .4363999  6.257668  3.610918
+{txt}{ralign 12:ldistsq} {...}
+{c |}{...}
+ {res}     4596  45.27747  8.726898  62.56583  20.73779
+{txt}{hline 13}{c BT}{hline 50}
+
+{com}. 
+. *output the regression results to a table
+. ssc install estout
+{txt}checking {hilite:estout} consistency and verifying not already installed...
+installing into c:\ado\plus\...
+installation complete.
+
+{com}. regress fare concen
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     4,596
+{txt}{hline 13}{c +}{hline 34}   F(1, 4594)      = {res}   173.41
+{txt}       Model {c |} {res} 937206.228         1  937206.228   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res}   24828066     4,594  5404.45493   {txt}R-squared       ={res}    0.0364
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.0362
+{txt}       Total {c |} {res} 25765272.2     4,595  5607.24096   {txt}Root MSE        =   {res} 73.515
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}        fare{col 14}{c |}      Coef.{col 26}   Std. Err.{col 38}      t{col 46}   P>|t|{col 54}     [95% Con{col 67}f. Interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 6}concen {c |}{col 14}{res}{space 2} -72.7036{col 26}{space 2} 5.520956{col 37}{space 1}  -13.17{col 46}{space 3}0.000{col 54}{space 4}-83.52733{col 67}{space 3}-61.87988
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2} 223.1543{col 26}{space 2} 3.538664{col 37}{space 1}   63.06{col 46}{space 3}0.000{col 54}{space 4} 216.2169{col 67}{space 3} 230.0918
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. eststo model1
+{txt}
+{com}. regress fare concen passen
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}     4,596
+{txt}{hline 13}{c +}{hline 34}   F(2, 4593)      = {res}   146.83
+{txt}       Model {c |} {res} 1548348.05         2  774174.025   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res} 24216924.1     4,593  5272.57221   {txt}R-squared       ={res}    0.0601
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.0597
+{txt}       Total {c |} {res} 25765272.2     4,595  5607.24096   {txt}Root MSE        =   {res} 72.612
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}        fare{col 14}{c |}      Coef.{col 26}   Std. Err.{col 38}      t{col 46}   P>|t|{col 54}     [95% Con{col 67}f. Interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 6}concen {c |}{col 14}{res}{space 2} -77.9755{col 26}{space 2} 5.475119{col 37}{space 1}  -14.24{col 46}{space 3}0.000{col 54}{space 4}-88.70937{col 67}{space 3}-67.24164
+{txt}{space 6}passen {c |}{col 14}{res}{space 2}-.0142599{col 26}{space 2} .0013245{col 37}{space 1}  -10.77{col 46}{space 3}0.000{col 54}{space 4}-.0168566{col 67}{space 3}-.0116632
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2} 235.4518{col 26}{space 2}  3.67713{col 37}{space 1}   64.03{col 46}{space 3}0.000{col 54}{space 4} 228.2429{col 67}{space 3} 242.6608
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}{txt}
+{com}. eststo model2
+{txt}
+{com}. esttab model1 model2 using reg_table.rtf
+{res}{err}{p 0 4 2}
+file reg_table.rtf
+already exists
+{p_end}
+{txt}{search r(602), local:r(602);}
+
+end of do-file
+
+{search r(602), local:r(602);}
+
+{com}. log close
+      {txt}name:  {res}<unnamed>
+       {txt}log:  {res}\\Client\E$\OneDrive - University of Toronto\ECO375_2\Stata log file.smcl
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res}23 Nov 2022, 21:51:34
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}
