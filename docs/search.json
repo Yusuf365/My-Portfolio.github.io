@@ -4,21 +4,21 @@
     "href": "about.html",
     "title": "Mohammmed Yusuf Shaikh",
     "section": "",
-    "text": "Hello there! I’m Mohammed Yusuf Shaikh. A creative thinker, tech enthusiast, and an ever-curious mind at the intersection of technology and innovation. I spend my days exploring the vast landscape of data analysis & software development and my nights diving into the latest tech trends and gadgets.\n\n\nMy professional journey has been marked by numerous successful projects where data was at the forefront. I’ve had the privilege of working across various industries, from finance to IT, providing data visualization, predictive modeling, and strategic analysis.\n\n\n\nWhen I’m not coding, I enjoy street photography and exploring the world of literature.\n\n\n\nI’m always open to discussing new projects or opportunities. Reach out to me on Linkedin or via Email.\nHome | Projects | Resume"
+    "text": "Hello there! I’m Mohammed Yusuf Shaikh. A creative thinker, tech enthusiast, and an ever-curious mind at the intersection of technology and innovation. I spend my days exploring the vast landscape of data analysis & software development and my nights diving into the latest tech trends.\n\n\nMy professional journey has been marked by numerous successful projects where data was at the forefront. I’ve had the privilege of working across various industries, from finance to IT, providing data visualization, predictive modeling, and strategic analysis.\n\n\n\nProgramming Languages: Python, R, STATA, C++, MySQL\nData Analysis & Visualization: R, STATA, Python, Tableau, Power BI\nDatabase Management: MySQL\nTools & Technologies: Github\n\n\n\n\n\nCreative Problem Solving\nTeam Collaboration\nCommunication\nAdaptability\nCritical Thinking\n\n\n\n\n\nWhen I’m not coding, I enjoy street photography and exploring the world of literature. I love travelling and networking with people.\n\n\n\nI’m always open to discussing new projects or opportunities. Reach out to me on Linkedin or via Email.\nHome | Projects | Resume"
   },
   {
     "objectID": "about.html#professional-journey",
     "href": "about.html#professional-journey",
     "title": "Mohammmed Yusuf Shaikh",
     "section": "",
-    "text": "My professional journey has been marked by numerous successful projects where data was at the forefront. I’ve had the privilege of working across various industries, from finance to IT, providing data visualization, predictive modeling, and strategic analysis."
+    "text": "My professional journey has been marked by numerous successful projects where data was at the forefront. I’ve had the privilege of working across various industries, from finance to IT, providing data visualization, predictive modeling, and strategic analysis.\n\n\n\nProgramming Languages: Python, R, STATA, C++, MySQL\nData Analysis & Visualization: R, STATA, Python, Tableau, Power BI\nDatabase Management: MySQL\nTools & Technologies: Github\n\n\n\n\n\nCreative Problem Solving\nTeam Collaboration\nCommunication\nAdaptability\nCritical Thinking"
   },
   {
     "objectID": "about.html#personal-insights",
     "href": "about.html#personal-insights",
     "title": "Mohammmed Yusuf Shaikh",
     "section": "",
-    "text": "When I’m not coding, I enjoy street photography and exploring the world of literature."
+    "text": "When I’m not coding, I enjoy street photography and exploring the world of literature. I love travelling and networking with people."
   },
   {
     "objectID": "about.html#lets-connect",
@@ -53,7 +53,7 @@
     "href": "index.html#skills",
     "title": "Mohammmed Yusuf Shaikh",
     "section": "Skills",
-    "text": "Skills\nDiscover the technologies and programming languages I work with."
+    "text": "Skills\nDiscover the technologies and programming languages I work with.\n\n\nLet’s Connect!\nI’m always open to new opportunities, collaborations, or just a friendly chat. Feel free to connect with me via email or on GitHub. You can also download my resume to learn more about my experience."
   },
   {
     "objectID": "index.html#contact",
@@ -75,5 +75,12 @@
     "title": "Projects Portfolio",
     "section": "",
     "text": "Here you can see a selection of my latest and greatest projects.\n\n\nConducted an econometric analysis examining the impact of minimum wage changes on unemployment rates post-financial crisis in Ontario, Quebec, and British Columbia. The analysis leverages STATA and Python for data processing and statistical modeling, facilitating a comprehensive examination of regional economic trends and policy impacts. The study utilized regression models to assess the relationship between minimum wage policies and unemployment trends, providing valuable insights into labor market dynamics within the selected provinces.\n\n\n\nExplore the intricate relationship between market concentration, passenger volume, and airfare dynamics in the U.S. domestic airline industry during the late 1990s and early 2000s. Leveraging panel data sourced from the U.S. Department of Transportation, this econometric analysis investigates the factors influencing average one-way airfare across 1149 domestic flight routes over four years. STATA is utilized as the primary tool for data analysis, enabling a comprehensive exploration of factors shaping airfare trends in this pivotal era of the aviation industry.\n\n\n\nEvaluate the economic landscape of the Miami Heat basketball team during the 2021-22 NBA season through a meticulous analysis conducted using Excel. Delve into player salaries and Marginal Revenue Product (MRP) evaluation, unveiling insights into player valuation and team financial dynamics within the professional sports arena.\n\n\n\nThis project employs R and Python for data analysis to examine the relationship between academic advising and student success at the University of Toronto. Despite a limited sample size, the study utilizes statistical techniques such as hypothesis testing, linear regression, and factor analysis to explore correlations between advising utilization, communication effectiveness, and timely graduation. The findings aim to offer insights into the impact of academic advising on student outcomes, informing potential strategies for improving academic support services.\n\n\n\nDelve into Toronto’s crime landscape from 2014 to 2022 with this analytical exploration based on the Toronto Police Annual Statistical Report. Uncover trends, patterns, and demographic insights using R language, offering valuable perspectives to shape crime prevention policies and strategies for enhancing public safety\nHome | About | Resume"
+  },
+  {
+    "objectID": "about.html#professional-summary",
+    "href": "about.html#professional-summary",
+    "title": "Mohammmed Yusuf Shaikh",
+    "section": "",
+    "text": "My professional journey has been marked by numerous successful projects where data was at the forefront. I’ve had the privilege of working across various industries, from finance to IT, providing data visualization, predictive modeling, and strategic analysis."
   }
 ]

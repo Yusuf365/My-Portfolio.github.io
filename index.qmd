@@ -34,14 +34,6 @@ Explore my latest projects, ranging from web applications to software tools.
 
 Discover the technologies and programming languages I work with.
 
-## Contact
-
-Interested in collaborating or have any questions? Feel free to reach out!
-
-- Email: [mohammedyusuf.shaikh@mail.utoronto.ca](mailto:mohammedyusuf.shaikh@mail.utoronto.ca)
-- GitHub: [Visit my GitHub](https://github.com/)
-- Resume: [Download Resume](Resume.pdf)
-
 ---
 
 ### Let's Connect!
