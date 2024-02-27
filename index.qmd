@@ -1,21 +1,50 @@
 ---
-title: "My Portfolio"
+title: "Mohammmed Yusuf Shaikh"
 image: Profile.jpeg
 about:
-  template:  trestles
-  image-shape: round
-  image-width:  15em
-  links: 
-    - text: Email
-      icon: email
+  template: trestles
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com
+    - icon: email
+      text: Email
       href: mailto:mohammedyusuf.shaikh@mail.utoronto.ca
-    - text: Github
-      icon: github
-      href: https://github.com/
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/mohammed-yusuf-shaikh-5b564323b
     - text: resume
       icon: file-text
       href: Resume.pdf
 ---
 
 
+
+I'm Mohammed Yusuf, a software developer based in Toronto, Canada. I specialize in building web applications and love to delve into new technologies.
+
+## About Me
+
+Learn more about my background, interests, and what drives me as a developer.
+
+## Projects
+
+Explore my latest projects, ranging from web applications to software tools.
+
+## Skills
+
+Discover the technologies and programming languages I work with.
+
+## Contact
+
+Interested in collaborating or have any questions? Feel free to reach out!
+
+- Email: [mohammedyusuf.shaikh@mail.utoronto.ca](mailto:mohammedyusuf.shaikh@mail.utoronto.ca)
+- GitHub: [Visit my GitHub](https://github.com/)
+- Resume: [Download Resume](Resume.pdf)
+
+---
+
+### Let's Connect!
+
+I'm always open to new opportunities, collaborations, or just a friendly chat. Feel free to connect with me via email or on GitHub. You can also download my resume to learn more about my experience.
 

@@ -10,8 +10,9 @@ format:
 
 Here you can see a selection of my latest and greatest projects.
 
-### A Regional Econometric Analysis:  Minimum Wage and Unemployment Dynamics Post-Financial Crisis
+### <a href="https://github.com/Yusuf365/My-Portfolio.github.io/tree/dca3168754a397dd1e3db9d59ab1c14f3cbce691/Project%201/"> A Regional Econometric Analysis:  Minimum Wage and Unemployment Dynamics Post-Financial Crisis</a>
 *Conducted an econometric analysis examining the impact of minimum wage changes on unemployment rates post-financial crisis in Ontario, Quebec, and British Columbia. The analysis leverages STATA and Python for data processing and statistical modeling, facilitating a comprehensive examination of regional economic trends and policy impacts. The study utilized regression models to assess the relationship between minimum wage policies and unemployment trends, providing valuable insights into labor market dynamics within the selected provinces.*
+
 
 ### Data Analysis of U.S. Domestic Airfare Dynamics: Market Concentration and Passenger Volume (1997-2000)
 *Explore the intricate relationship between market concentration, passenger volume, and airfare dynamics in the U.S. domestic airline industry during the late 1990s and early 2000s. Leveraging panel data sourced from the U.S. Department of Transportation, this econometric analysis investigates the factors influencing average one-way airfare across 1149 domestic flight routes over four years. STATA is utilized as the primary tool for data analysis, enabling a comprehensive exploration of factors shaping airfare trends in this pivotal era of the aviation industry.*

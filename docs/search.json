@@ -28,6 +28,41 @@
     "text": "I’m always open to discussing new projects or opportunities. Reach out to me on Linkedin or via Email.\nHome | Projects | Resume"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mohammmed Yusuf Shaikh",
+    "section": "",
+    "text": "I’m Mohammed Yusuf, a software developer based in Toronto, Canada. I specialize in building web applications and love to delve into new technologies."
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Mohammmed Yusuf Shaikh",
+    "section": "About Me",
+    "text": "About Me\nLearn more about my background, interests, and what drives me as a developer."
+  },
+  {
+    "objectID": "index.html#projects",
+    "href": "index.html#projects",
+    "title": "Mohammmed Yusuf Shaikh",
+    "section": "Projects",
+    "text": "Projects\nExplore my latest projects, ranging from web applications to software tools."
+  },
+  {
+    "objectID": "index.html#skills",
+    "href": "index.html#skills",
+    "title": "Mohammmed Yusuf Shaikh",
+    "section": "Skills",
+    "text": "Skills\nDiscover the technologies and programming languages I work with."
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Mohammmed Yusuf Shaikh",
+    "section": "Contact",
+    "text": "Contact\nInterested in collaborating or have any questions? Feel free to reach out!\n\nEmail: mohammedyusuf.shaikh@mail.utoronto.ca\nGitHub: Visit my GitHub\nResume: Download Resume\n\n\n\nLet’s Connect!\nI’m always open to new opportunities, collaborations, or just a friendly chat. Feel free to connect with me via email or on GitHub. You can also download my resume to learn more about my experience."
+  },
+  {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects Portfolio",
