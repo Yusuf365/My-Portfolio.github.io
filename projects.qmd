@@ -10,28 +10,63 @@ format:
 
 Here you can see a selection of my latest and greatest projects.
 
+## Project 1
+
+### <a href="https://github.com/Yusuf365/Victim_Crime_data_analysis.git"> Exploring Urban Crime Dynamics: Insights from Toronto Police Annual Statistical Report </a>
+
+* **Summary**: *Delve into Toronto's crime landscape from 2014 to 2022 with this analytical exploration based on the Toronto Police Annual Statistical Report. Uncover trends, patterns, and demographic insights using R language, offering valuable perspectives to shape crime prevention policies and strategies for enhancing public safety*
+* **Tools**: *R language*
+* **Outcome**: *Contributed to a better understanding of demographic impacts on crime rates.*
+* **GitHub Repository**: [View Code](https://github.com/Yusuf365/Victim_Crime_data_analysis.git)
+* **Read the Analysis**: [Read paper](https://github.com/Yusuf365/Victim_Crime_data_analysis/blob/6687795ff467b32f661bcaba9685239f97ea24a3/outputs/paper/paper.pdf)
+
+
+## Project 2
+
 ### <a href="https://github.com/Yusuf365/My-Portfolio.github.io/tree/dca3168754a397dd1e3db9d59ab1c14f3cbce691/Project%201/"> A Regional Econometric Analysis:  Minimum Wage and Unemployment Dynamics Post-Financial Crisis</a>
-*Conducted an econometric analysis examining the impact of minimum wage changes on unemployment rates post-financial crisis in Ontario, Quebec, and British Columbia. The analysis leverages STATA and Python for data processing and statistical modeling, facilitating a comprehensive examination of regional economic trends and policy impacts. The study utilized regression models to assess the relationship between minimum wage policies and unemployment trends, providing valuable insights into labor market dynamics within the selected provinces.*
-
-
-### Data Analysis of U.S. Domestic Airfare Dynamics: Market Concentration and Passenger Volume (1997-2000)
-*Explore the intricate relationship between market concentration, passenger volume, and airfare dynamics in the U.S. domestic airline industry during the late 1990s and early 2000s. Leveraging panel data sourced from the U.S. Department of Transportation, this econometric analysis investigates the factors influencing average one-way airfare across 1149 domestic flight routes over four years. STATA is utilized as the primary tool for data analysis, enabling a comprehensive exploration of factors shaping airfare trends in this pivotal era of the aviation industry.*
-
-### Salary Analysis and Marginal Revenue Product Evaluation of Miami Heat Players (2021-22 NBA Season)
-*Evaluate the economic landscape of the Miami Heat basketball team during the 2021-22 NBA season through a meticulous analysis conducted using Excel. Delve into player salaries and Marginal Revenue Product (MRP) evaluation, unveiling insights into player valuation and team financial dynamics within the professional sports arena.*
-
-### Analyzing the Impact of Academic Advising on Student Success: A Study with a Small Sample at the University of Toronto
-
-*This project employs R and Python for data analysis to examine the relationship between academic advising and student success at the University of Toronto. Despite a limited sample size, the study utilizes statistical techniques such as hypothesis testing, linear regression, and factor analysis to explore correlations between advising utilization, communication effectiveness, and timely graduation. The findings aim to offer insights into the impact of academic advising on student outcomes, informing potential strategies for improving academic support services.*
-
-### Exploring Urban Crime Dynamics: Insights from Toronto Police Annual Statistical Report
-
-*Delve into Toronto's crime landscape from 2014 to 2022 with this analytical exploration based on the Toronto Police Annual Statistical Report. Uncover trends, patterns, and demographic insights using R language, offering valuable perspectives to shape crime prevention policies and strategies for enhancing public safety*
+* **Summary**: *Conducted an econometric analysis examining the impact of minimum wage changes on unemployment rates post-financial crisis in Ontario, Quebec, and British Columbia. The analysis leverages STATA and Python for data processing and statistical modeling, facilitating a comprehensive examination of regional economic trends and policy impacts. The study utilized regression models to assess the relationship between minimum wage policies and unemployment trends, providing valuable insights into labor market dynamics within the selected provinces.*
+* **Tools**: *STATA, Python*
+* **Outcome**: *Offered policy insights on labor market dynamics.*
+* **Github Repository**: [View Code](https://github.com/Yusuf365/My-Portfolio.github.io/tree/dca3168754a397dd1e3db9d59ab1c14f3cbce691/Project%201)
+* **Read the Analysis**: [Read Econometric Analysis](https://github.com/Yusuf365/My-Portfolio.github.io/blob/dca3168754a397dd1e3db9d59ab1c14f3cbce691/Project%201/A%20Regional%20Econometric%20Analysis%20%20Minimum%20Wage%20and%20Unemployment%20Dynamics%20Post-Financial%20Crisis.pdf)
 
 
 
+## Project 3
+
+### <a href="https://github.com/Yusuf365/My-Portfolio.github.io/tree/dca3168754a397dd1e3db9d59ab1c14f3cbce691/Project%202/"> Salary Analysis and Marginal Revenue Product Evaluation of Miami Heat Players (2021-22 NBA Season)</a>
+* **Summary**: *Evaluate the economic landscape of the Miami Heat basketball team during the 2021-22 NBA season through a meticulous analysis conducted using Excel. Delve into player salaries and Marginal Revenue Product (MRP) evaluation, unveiling insights into player valuation and team financial dynamics within the professional sports arena.*
+* **Tools**: *MS Excel, MS Word*
+* **Outcome**: *Assisted in assessing player value and team economics.*
+* **GitHub Repository**: [View Files](https://github.com/Yusuf365/My-Portfolio.github.io/tree/dca3168754a397dd1e3db9d59ab1c14f3cbce691/Project%202)
+* **Read the Analysis**: [Read Paper](https://github.com/Yusuf365/My-Portfolio.github.io/blob/dca3168754a397dd1e3db9d59ab1c14f3cbce691/Project%202/Salary%20Analysis%20and%20Marginal%20Revenue%20Product%20Evaluation%20of%20Miami%20Heat%20Players%20(2021-22%20NBA%20Season).pdf)
+
+## Project 4
+
+### <a href="https://github.com/Yusuf365/My-Portfolio.github.io/tree/dca3168754a397dd1e3db9d59ab1c14f3cbce691/Project%203/"> Data Analysis of U.S. Domestic Airfare Dynamics: Market Concentration and Passenger Volume (1997-2000)</a>
+* **Summary**: *Explore the intricate relationship between market concentration, passenger volume, and airfare dynamics in the U.S. domestic airline industry during the late 1990s and early 2000s. Leveraging panel data sourced from the U.S. Department of Transportation, this econometric analysis investigates the factors influencing average one-way airfare across 1149 domestic flight routes over four years. STATA is utilized as the primary tool for data analysis, enabling a comprehensive exploration of factors shaping airfare trends in this pivotal era of the aviation industry.*
+* **Tools**: *STATA, R Language, MS Word, MS PowerPoint*
+* **Outcome**: *Enhanced understanding of aviation industry pricing strategies.*
+* **GitHub Repository**: [View Code](https://github.com/Yusuf365/My-Portfolio.github.io/tree/dca3168754a397dd1e3db9d59ab1c14f3cbce691/Project%203)
+* **Read the Analysis**: [Read Paper](https://github.com/Yusuf365/My-Portfolio.github.io/blob/dca3168754a397dd1e3db9d59ab1c14f3cbce691/Project%203/Data%20Analysis%20of%20U.S.%20Domestic%20Airfare%20Dynamics%20Market%20Concentration%20and%20Passenger%20Volume%20(1997-2000).pdf)
+
+
+## Project 5
+
+
+### <a href="https://github.com/Yusuf365/My-Portfolio.github.io/tree/3e913af6790652dc3fd10858a049aa2b0b77ae1f/Project%204/"> Analyzing the Impact of Academic Advising on Student Success: A Study with a Small Sample at the University of Toronto </a>
+
+* **Summary**: *This project employs R language for data analysis to examine the relationship between academic advising and student success at the University of Toronto. Despite a limited sample size, the study utilizes statistical techniques such as hypothesis testing, linear regression, and factor analysis to explore correlations between advising utilization, communication effectiveness, and timely graduation. The findings aim to offer insights into the impact of academic advising on student outcomes, informing potential strategies for improving academic support services.*
+* **Tools**: *R language, MS Word, MS PowerPoint*
+* **Outcome**: *Informed potential improvements for academic support services.*
+* **GitHub Repository**: [View Code](https://github.com/Yusuf365/My-Portfolio.github.io/tree/3e913af6790652dc3fd10858a049aa2b0b77ae1f/Project%204)
+* **Read the Analysis**: [Read Report](https://github.com/Yusuf365/My-Portfolio.github.io/tree/3e913af6790652dc3fd10858a049aa2b0b77ae1f/Project%204)
 
 
 
-[Home](index.html) | [About](about.html) | [Resume](resume.html)
+
+
+
+
+[Home](index.html) | [About](about.html) | [Resume](Resume.pdf)
 

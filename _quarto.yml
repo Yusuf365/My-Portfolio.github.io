@@ -17,6 +17,10 @@ website:
         href: about.qmd
       - icon: github
         href: https://yusuf365.github.io/My-Portfolio.github.io/
+      - icon: envelope
+        href: mailto:mohammedyusuf.shaikh@mail.utoronto.ca
+      - icon: linkedin
+        href: https://www.linkedin.com/in/mohammed-yusuf-shaikh-5b564323b
         
   page-footer:
     right: 
