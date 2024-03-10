@@ -29,7 +29,7 @@ My professional journey has been marked by numerous successful projects where da
 - Programming Languages: Python, R, STATA, C++, MySQL
 - Data Analysis & Visualization: R, STATA, Python, Tableau, Power BI
 - Database Management: MySQL
-- Tools & Technologies: Github
+- Tools & Technologies: Github, MS Excel, MS Word, MS PowerPoint
 
 ### Soft Skills
 - Creative Problem Solving
