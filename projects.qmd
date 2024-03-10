@@ -8,7 +8,7 @@ format:
 
 ## Featured Projects
 
-Here you can see a selection of my latest and greatest projects.
+Here you can see a selection of my latest projects.
 
 ## Project 1
 
