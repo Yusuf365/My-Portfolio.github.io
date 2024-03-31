@@ -68,5 +68,5 @@ Here you can see a selection of my latest projects.
 
 
 
-[Home](index.html) | [About](about.html) | [Resume](MohammedYusufShaikh_Resume_P.pdf)
+[Home](index.html) | [About](about.html) | [Resume](MohammedYusuf_Resume.pdf)
 
