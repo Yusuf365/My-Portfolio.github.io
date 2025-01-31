@@ -10,8 +10,6 @@ format:
 
 Here you can see a selection of my latest projects.
 
-## Project 1
-
 ### <a href="https://github.com/Yusuf365/Victim_Crime_data_analysis.git"> Exploring Urban Crime Dynamics: Insights from Toronto Police Annual Statistical Report </a>
 
 * **Summary**: *Delve into Toronto's crime landscape from 2014 to 2022 with this analytical exploration based on the Toronto Police Annual Statistical Report. Uncover trends, patterns, and demographic insights using R language, offering valuable perspectives to shape crime prevention policies and strategies for enhancing public safety*
@@ -68,5 +66,4 @@ Here you can see a selection of my latest projects.
 
 
 
-[Home](index.html) | [About](about.html) | [MohammedYusufShaikh_Resume_P.pdf)
-
+[Home](index.html) | [About](about.html) | [Resume](Mohammed Yusuf Shaikh Resume_Porfolio.pdf)
