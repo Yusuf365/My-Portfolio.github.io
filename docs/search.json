@@ -14,25 +14,11 @@
     "text": "My professional journey has been marked by numerous successful projects where data was at the forefront. I’ve had the privilege of working across various industries, from finance to IT, providing data visualization, predictive modeling, and strategic analysis.\n\n\n\nTools: Github, MS Excel, MS Word, MS PowerPoint, R, STATA, Python, Tableau, Power BI, MySQL, PostgreSQL\n\n\n\n\n\nCreative Problem Solving\nTeam Collaboration\nCommunication\nAdaptability\nCritical Thinking"
   },
   {
-    "objectID": "about.html#personal-insights",
-    "href": "about.html#personal-insights",
-    "title": "Mohammmed Yusuf Shaikh",
-    "section": "",
-    "text": "When I’m not coding, I enjoy street photography and exploring the world of literature. I love travelling and networking with people."
-  },
-  {
     "objectID": "about.html#lets-connect",
     "href": "about.html#lets-connect",
     "title": "Mohammmed Yusuf Shaikh",
     "section": "",
     "text": "I’m always open to discussing new projects or opportunities. Reach out to me on Linkedin or via Email.\nHome | Projects | Resume"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Mohammed Yusuf Shaikh",
-    "section": "",
-    "text": "Hello there! I’m Mohammed Yusuf Shaikh. I am an ambitious undergraduate currently pursuing an Honors Bachelor of Science degree at the University of Toronto, I am deeply passionate about leveraging data-driven insights to inform strategic decision-making. With a primary focus on Economics and Statistics, I am equipped with a strong analytical foundation and a keen interest in supply chain management and digital marketing strategies.\nI am eagerly seeking opportunities to apply my theoretical knowledge in practical, real-world settings. Beyond academics, I am also actively pursuing the Chartered Financial Analyst (CFA) designation, showcasing my dedication to continuous learning and professional development in the field of finance.\nDelve into my latest projects, where I apply my unique blend of skills and perspectives to create innovative solutions. From web applications that streamline processes to software tools that solve complex problems, each project reflects my commitment to pushing boundaries and making a tangible impact.\n\nLet’s Connect!\nI’m always open to new opportunities, collaborations, or just a friendly chat. Feel free to connect with me via email or Linkedin. You can also download my resume to learn more about my experience."
   },
   {
     "objectID": "projects.html",
@@ -49,38 +35,10 @@
     "text": "Here you can see a selection of my latest projects.\n\n\n\nSummary: Delve into Toronto’s crime landscape from 2014 to 2022 with this analytical exploration based on the Toronto Police Annual Statistical Report. Uncover trends, patterns, and demographic insights using R language, offering valuable perspectives to shape crime prevention policies and strategies for enhancing public safety\nTools: R language\nOutcome: Contributed to a better understanding of demographic impacts on crime rates.\nGitHub Repository: View Code\nRead the Analysis: Read paper\n\n\n\n\n\nSummary: Conducted an econometric analysis examining the impact of minimum wage changes on unemployment rates post-financial crisis in Ontario, Quebec, and British Columbia. The analysis leverages STATA and Python for data processing and statistical modeling, facilitating a comprehensive examination of regional economic trends and policy impacts. The study utilized regression models to assess the relationship between minimum wage policies and unemployment trends, providing valuable insights into labor market dynamics within the selected provinces.\nTools: STATA, Python\nOutcome: Offered policy insights on labor market dynamics.\nGithub Repository: View Code\nRead the Analysis: Read Econometric Analysis\n\n\n\n\n\nSummary: Evaluate the economic landscape of the Miami Heat basketball team during the 2021-22 NBA season through a meticulous analysis conducted using Excel. Delve into player salaries and Marginal Revenue Product (MRP) evaluation, unveiling insights into player valuation and team financial dynamics within the professional sports arena.\nTools: MS Excel, MS Word\nOutcome: Assisted in assessing player value and team economics.\nGitHub Repository: View Files\nRead the Analysis: Read Paper\n\n\n\n\n\nSummary: Explore the intricate relationship between market concentration, passenger volume, and airfare dynamics in the U.S. domestic airline industry during the late 1990s and early 2000s. Leveraging panel data sourced from the U.S. Department of Transportation, this econometric analysis investigates the factors influencing average one-way airfare across 1149 domestic flight routes over four years. STATA is utilized as the primary tool for data analysis, enabling a comprehensive exploration of factors shaping airfare trends in this pivotal era of the aviation industry.\nTools: STATA, R Language, MS Word, MS PowerPoint\nOutcome: Enhanced understanding of aviation industry pricing strategies.\nGitHub Repository: View Code\nRead the Analysis: Read Paper\n\n\n\n\n\nSummary: This project employs R language for data analysis to examine the relationship between academic advising and student success at the University of Toronto. Despite a limited sample size, the study utilizes statistical techniques such as hypothesis testing, linear regression, and factor analysis to explore correlations between advising utilization, communication effectiveness, and timely graduation. The findings aim to offer insights into the impact of academic advising on student outcomes, informing potential strategies for improving academic support services.\nTools: R language, MS Word, MS PowerPoint\nOutcome: Informed potential improvements for academic support services.\nGitHub Repository: View Code\nRead the Analysis: Read Report\n\nHome | About | Resume"
   },
   {
-    "objectID": "projects.html#project-1",
-    "href": "projects.html#project-1",
-    "title": "Projects Portfolio",
-    "section": "Project 1",
-    "text": "Project 1\n\n Exploring Urban Crime Dynamics: Insights from Toronto Police Annual Statistical Report \n\nSummary: Delve into Toronto’s crime landscape from 2014 to 2022 with this analytical exploration based on the Toronto Police Annual Statistical Report. Uncover trends, patterns, and demographic insights using R language, offering valuable perspectives to shape crime prevention policies and strategies for enhancing public safety\nTools: R language\nOutcome: Contributed to a better understanding of demographic impacts on crime rates.\nGitHub Repository: View Code\nRead the Analysis: Read paper"
-  },
-  {
-    "objectID": "projects.html#project-2",
-    "href": "projects.html#project-2",
-    "title": "Projects Portfolio",
-    "section": "Project 2",
-    "text": "Project 2\n\n A Regional Econometric Analysis: Minimum Wage and Unemployment Dynamics Post-Financial Crisis\n\nSummary: Conducted an econometric analysis examining the impact of minimum wage changes on unemployment rates post-financial crisis in Ontario, Quebec, and British Columbia. The analysis leverages STATA and Python for data processing and statistical modeling, facilitating a comprehensive examination of regional economic trends and policy impacts. The study utilized regression models to assess the relationship between minimum wage policies and unemployment trends, providing valuable insights into labor market dynamics within the selected provinces.\nTools: STATA, Python\nOutcome: Offered policy insights on labor market dynamics.\nGithub Repository: View Code\nRead the Analysis: Read Econometric Analysis"
-  },
-  {
-    "objectID": "projects.html#project-3",
-    "href": "projects.html#project-3",
-    "title": "Projects Portfolio",
-    "section": "Project 3",
-    "text": "Project 3\n\n Salary Analysis and Marginal Revenue Product Evaluation of Miami Heat Players (2021-22 NBA Season)\n\nSummary: Evaluate the economic landscape of the Miami Heat basketball team during the 2021-22 NBA season through a meticulous analysis conducted using Excel. Delve into player salaries and Marginal Revenue Product (MRP) evaluation, unveiling insights into player valuation and team financial dynamics within the professional sports arena.\nTools: MS Excel, MS Word\nOutcome: Assisted in assessing player value and team economics.\nGitHub Repository: View Files\nRead the Analysis: Read Paper"
-  },
-  {
-    "objectID": "projects.html#project-4",
-    "href": "projects.html#project-4",
-    "title": "Projects Portfolio",
-    "section": "Project 4",
-    "text": "Project 4\n\n Data Analysis of U.S. Domestic Airfare Dynamics: Market Concentration and Passenger Volume (1997-2000)\n\nSummary: Explore the intricate relationship between market concentration, passenger volume, and airfare dynamics in the U.S. domestic airline industry during the late 1990s and early 2000s. Leveraging panel data sourced from the U.S. Department of Transportation, this econometric analysis investigates the factors influencing average one-way airfare across 1149 domestic flight routes over four years. STATA is utilized as the primary tool for data analysis, enabling a comprehensive exploration of factors shaping airfare trends in this pivotal era of the aviation industry.\nTools: STATA, R Language, MS Word, MS PowerPoint\nOutcome: Enhanced understanding of aviation industry pricing strategies.\nGitHub Repository: View Code\nRead the Analysis: Read Paper"
-  },
-  {
-    "objectID": "projects.html#project-5",
-    "href": "projects.html#project-5",
-    "title": "Projects Portfolio",
-    "section": "Project 5",
-    "text": "Project 5\n\n Analyzing the Impact of Academic Advising on Student Success: A Study with a Small Sample at the University of Toronto \n\nSummary: This project employs R language for data analysis to examine the relationship between academic advising and student success at the University of Toronto. Despite a limited sample size, the study utilizes statistical techniques such as hypothesis testing, linear regression, and factor analysis to explore correlations between advising utilization, communication effectiveness, and timely graduation. The findings aim to offer insights into the impact of academic advising on student outcomes, informing potential strategies for improving academic support services.\nTools: R language, MS Word, MS PowerPoint\nOutcome: Informed potential improvements for academic support services.\nGitHub Repository: View Code\nRead the Analysis: Read Report\n\nHome | About | Resume"
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mohammed Yusuf Shaikh",
+    "section": "",
+    "text": "Hello, my name is Mohammed Yusuf Shaikh, and I am an ambitious undergraduate currently pursuing an Honors Bachelor of Science degree at the University of Toronto, with a double major in Economics and Applied Statistics. My academic background has provided me with a strong analytical foundation, and I am particularly interested in pursuing careers in finance and data analytics.\nI am eagerly seeking opportunities to apply my theoretical knowledge in practical, real-world settings. Beyond academics, I am also actively pursuing the Chartered Financial Analyst (CFA) designation, showcasing my dedication to continuous learning and professional development in the field of finance.\nDelve into my latest projects, where I apply my unique blend of skills and perspectives to create innovative solutions. From web applications that streamline processes to software tools that solve complex problems, each project reflects my commitment to pushing boundaries and making a tangible impact.\n\nLet’s Connect!\nI’m always open to new opportunities, collaborations, or just a friendly chat. Feel free to connect with me via email or Linkedin. You can also download my resume to learn more about my experience."
   }
 ]
