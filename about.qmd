@@ -17,11 +17,11 @@ about:
 
 # Welcome to My Corner!
 
-Hello there! I'm Mohammed Yusuf Shaikh. A tech enthusiast, with ever-curious mind. I spend my days exploring the vast landscape of data analysis & software development. With my keen interest in Banking, Financial Services, and Insurance , I keep learning new things.
+Hello there! I'm Mohammed Yusuf Shaikh. A tech enthusiast, with ever-curious mind. I spend my days exploring the vast landscape of data analysis & software development. With my keen interest in Data Science, Finance & Healtcare sectors. 
 
 ## Professional Journey
 
-My professional journey has been marked by numerous successful projects where data was at the forefront. I've had the privilege of working across various industries, from finance to IT, providing data visualization, predictive modeling, and strategic analysis.
+My professional journey has been marked by numerous successful academic projects where data was at the forefront. I've had the privilege of working across various industry verticals, from finance to IT, providing data visualization, predictive modeling, and strategic analysis.
 
 ### Technical Skills
 
