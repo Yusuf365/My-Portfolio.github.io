@@ -17,7 +17,7 @@ about:
 
 # Welcome to My Corner!
 
-Hello there! I'm Mohammed Yusuf Shaikh. A tech enthusiast, with ever-curious mind. I spend my days exploring the vast landscape of data analysis & software development. With my keen interest in Data Science, Finance & Healtcare sectors. 
+Hello there! I'm Mohammed Yusuf Shaikh. A tech enthusiast, with ever-curious mind. I spend my days exploring the vast landscape of data analysis & software development. With my keen interest in Data Science. 
 
 ## Professional Journey
 
