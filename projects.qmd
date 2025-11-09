@@ -10,6 +10,15 @@ format:
 
 Here you can see a selection of my latest projects.
 
+### <a href="https://github.com/Yusuf365/Victim_Crime_data_analysis.git"> Exploring Urban Crime Dynamics: Insights from Toronto Police Annual Statistical Report </a>
+
+* **Summary**: **
+* **Tools**: *R language*
+* **Outcome**: **
+* **GitHub Repository**: [View Code]()
+* **Read the Analysis**: [Read paper]()
+
+
 
 ### <a href="https://github.com/Yusuf365/Victim_Crime_data_analysis.git"> Exploring Urban Crime Dynamics: Insights from Toronto Police Annual Statistical Report </a>
 
