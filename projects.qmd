@@ -10,14 +10,23 @@ format:
 
 Here you can see a selection of my latest projects.
 
-### <a href="https://github.com/Yusuf365/Victim_Crime_data_analysis.git"> Exploring Urban Crime Dynamics: Insights from Toronto Police Annual Statistical Report </a>
+### <a href="https://github.com/Yusuf365/My-Portfolio.github.io/tree/main/Project%207%20ML"> SPCA </a>
 
 * **Summary**: **
 * **Tools**: *R language*
-* **Outcome**: **
-* **GitHub Repository**: [View Code]()
-* **Read the Analysis**: [Read paper]()
+* **Conclusion**: **
+* **GitHub Repository**: [View Code](https://github.com/Yusuf365/My-Portfolio.github.io/tree/main/Project%207%20ML)
+* **Read the Analysis**: [Read paper](Project 7 ML/Simulation-spca-STA315-Project.pdf)
+* **Presentation**: [Presentation PDF](Project 7 ML/Sparse Principal Component Analysis_Presentation.pdf)
 
+### <a href="https://github.com/Yusuf365/My-Portfolio.github.io/tree/main/Project%207%20ML"> SPCA </a>
+
+* **Summary**: **
+* **Tools**: *R language*
+* **Conclusion**: **
+* **GitHub Repository**: [View Code](https://github.com/Yusuf365/My-Portfolio.github.io/tree/main/Project%207%20ML)
+* **Read the Analysis**: [Read paper](Project 7 ML/Simulation-spca-STA315-Project.pdf)
+* **Presentation**: [Presentation PDF](Project 7 ML/Sparse Principal Component Analysis_Presentation.pdf)
 
 
 ### <a href="https://github.com/Yusuf365/Victim_Crime_data_analysis.git"> Exploring Urban Crime Dynamics: Insights from Toronto Police Annual Statistical Report </a>

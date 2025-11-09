@@ -1,0 +1,211 @@
+---
+title: |
+  
+  Stochastic Processes: Exploring Lévy Processes
+  
+  STA348H5F: Introduction to Stochastic Processes  
+  
+  Dr. Omidali A. Jazi
+author: "Author: Mohammed Yusuf Shaikh"
+date: "`r Sys.Date()`" #  
+output:
+  pdf_document:
+      number_sections: true
+spacing: double
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot[CO,CE]{}
+- \fancyfoot[LE,RO]{\thepage}
+- \usepackage{setspace}\doublespacing
+---
+
+```{=tex}
+\newpage 
+\tableofcontents 
+\newpage
+```
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+\newpage 
+
+# Introduction
+In the world of mathematics and probability theory, stochastic processes became an essential concept in modeling events that hinge on some measure of chance. Discrete events that happen chronologically as a stream of stuff can be apprehended and measured in terms of probability assessing them. In theoretical probability, one of the fields of study is stochastic processes that is a sequence of random variable indexed by time of space representing a system in a probabilistic manner. A widely used method to model systems which exhibit random behavior such as finance, healthcare, engineering, computer science and physics One of the special type of stochastic processes is Levy Processes.
+Paul Levy a French mathematician expanded on the idea of random walks and Brownian motion(motion of particle in fluids), whihc later came to be discovered as Levy Processes. The idea of levy processes has shaped in to modeling framework for finance industry for risk assessment, model asset prices with jumps. According to recent studies Levy process are used in biological systems, such as DNA sequencing. 
+
+## Properties of Lévy Processes
+
+Let \( X \) be a random variable where \( X \) represents the state of a process at time \( t \), where \( t \geq 0 \). A stochastic process \( X = \{ X_t : t \geq 0 \} \) is said to be a Lévy Process if the following conditions hold:
+
+**1. Initial start of the process**:
+
+ The process starts at zero in space \( R^d \), where \(X_0 = 0\), implying process starts at origin.
+
+**2. Time-Homogeneity of increments**
+
+  The state X has stationary increments ,that is, increments depends on the lenght of time interval represented by 's', 
+\[
+X_{t+s} - X_t
+\]
+  Thus, increments depends only on s and is independent of time 't'. The statistical properties of the process's assumes the increments are consistent over time.
+
+**3. Continuity in Probability**
+
+The stochastic continuity ensures the process behaves predictably over small intervals, however there may be random change at larger intervals
+
+For any \( \epsilon > 0 \):
+\[
+\mathbb{P}(|X_{t+s} - X_t| > \epsilon) \to 0 \quad \text{as } s \to 0.
+\]
+
+
+\( \epsilon \) evaluates to the margin of error, the probability of increment being larger than margin error implies the Levy process behaves predictability in small steps.
+
+
+**4. Property of Independent Increments**
+
+The independence increment assumption ensures that the sequence interval do not overlap. 
+
+\[
+s_1 \leq t_1 \leq s_2 \leq t_2 \leq \cdots \leq s_n \leq t_n.
+\]
+
+The increment is the change in process  denoted by over the respective given time interval \([s_i, t_i]\)
+
+\[
+X_{t_i} - X_{s_i}.
+\]
+
+Levy processes possesses similarities to Markov chain from the properties view; nevertheless, on grounds for continuity in probability, they are strong Markov chains. This report reviews the Levy processes from both the theoretical and the application perspectives.
+
+# Review of topic
+
+Every stochastic process have a certain characteristics. They can be defined mathematically as a charatersitic function, the tools helps us to study the probability distribution of a random variable say X. The function has a unique identity when operation are performed on the random variable. It is denoted by: 
+
+\[
+\Phi_{X_t}(t) = \mathbb{E}\left[e^{i t X_t}\right], \, t \in \mathbb{R}.
+\]
+
+
+Where:
+
+- \( t \) is a real-valued parameter.
+- \( \Phi_{X_t}(t) \) is the characteristic function of the random variable \( X_t \).
+- \( \mathbb{E} \) represents the expected value measuring average of a function of random variable.
+- \( e^{i t X_t} \) is the complex exponential function that shows the distribution of \( X_t \).
+
+The expected value of X, a random variable:
+
+\[
+\mathbb{E}[g(X)] = \int_{-\infty}^{\infty} g(x) \cdot f_X(x) \, dx.
+\]
+
+The above expression can be represented as,
+
+\[
+\Phi_{X_t}(t) = \int_{-\infty}^{\infty} g(x) \cdot f_X(x) \, dx. = \int_{-\infty}^{+\infty} \exp(i t x) f_X(x) \, dx.
+\]
+
+For a random variable X, characteristic function always exist when probability denisty function(pdf) or cumulative(cdf) density function is not well defined and it is continuous.
+
+## Infinitely Divisiblity
+
+A random variable is infinitely divisible when it is the sum of any samller independent random variables that have all same type of distribution. Consider an a random variable X an event over time, imagine if it can be split into n smaller independent pieces or variables, with each piece distributed identically. The sum of identically distributed independent variables adds up to the random variable X.
+
+\[
+X = \sum_{k=1}^n Y_k, \quad Y_k \stackrel{i.i.d.}{\sim} \frac{X}{n}
+\]
+
+Here,
+
+- \( X \): The original random variable.
+- \( Y_k \): The smaller, independent, identically distributed random variables that add up to \( X \).
+
+Using the stationanry increment property, the distribution of \( X_t \), depends only on t:
+
+\[
+\Phi_{X_t}(t) = \left(\Phi_{X}(t)\right)^t = \left(e^{\psi(t)}\right)^t = e^{t \psi(t)}
+\]
+
+
+The function \( \psi(t) \) is called characteristics exponent, its purpose is to capture all the dynamics of Levy process. The three components of the charaterstics exponent are:
+
+i. Diffusion Component smoothed the continuous fluctuation caused by randomness, where mean of process at time \(t \) is $at$ and $\sigma^2 t$ is 
+
+\[
+X_t \sim N(at, \sigma^2 t),
+\]
+
+The characteristics function of a normal random variable, the formula we get:
+
+\[
+\Phi_{X_t}(t) = \exp\left(-\frac{1}{2} \sigma^2 t^2\right),
+\]
+
+This shows explain continous random changes.
+
+ii. Drift represents the deterministic, linear trend in the process. It account for average constant rate at whihc process increases or decreases over time
+
+\[
+\Phi_{X_t}(t) = \exp\left(i a t\right),
+\]
+
+The drift term, models predictable steady changes in the process, such as a stock price that consistently grows by a fixed amount each year.
+
+iii. Jump Component
+The jump component is discontinuous changes or “jumps” in the process. The jump component can be derived as jump occurs at times \(S_n\), where \(X_t\) increase by 1. The Levy measure \( \nu(dx) = \lambda \delta(dx) \) which quantifies rate and size of jumps in process.The jump term, models sudden & unpredictable changes, such as market crashes, abrupt system failures, or genetic mutations. The characteristic exponent for jump process, is denoted by \( \phi(t) \).
+
+\[
+\int_{\mathbb{R}} \left(e^{itx} - 1 - itx \mathbf{1}_{|x| < 1}\right) \nu(dx),
+\]
+
+To provide an example from  physics, the Brownian motion is one of the simplest stochastic processes, known as Lévy processes. Composed solely by purely small random changes in motion, employed particle moves are characterized by the diffusion term, while their variance $\sigma^2$ defines continuous variations. It is a measure of the diffusion term left by the Lévy-Khintchine formula of stochastic process characteristic function. 
+Poisson process another basic example of Lévy process which is defined by its pure jump nature. The jump measure \( \nu(dx) \) determines the rate of jumps, which is actually, a single event. However, the Poisson process has jumps which makes it to be one of the most useful for modeling events which are rare or at least abrupt like system’s failures in a process.
+
+
+# Application
+
+One of the biggest source of economy for any country are the fiancial market which involves trades, commodities, investments. The applying concept statistical & mathematical idea is to model market dynamics, price derivation, managing risk and optimize portfolios; a structured approach towards predicting marketing behaviour. The stochastic processes capture the complexities of real world variate and it's volatilites which help of historical data, assumptions and quantitative techniques to forcast and predict performance. Until the late of 1990s the Black-Scholesit has been the most popular model in the market. It gave a precise analytical model that gave the price of European-style options and transformed the financial world. However, its use has developed gradually over time and it has dominated a number of years with increased market complexity coupled with revelations that have basic limitations to some of the assumptions made in the context of the model. However, a major limitation is the assumption of constant volatility, which fails to account for modern financial realities such as stochastic volatility and volatility clustering, commonly observed in financial markets. Moreover, the model considers continuous prices paths — it cannot explain sudden market events, or jumps like crashes or extreme price moves. The model is suitable only for European options where the option can be exercised only at maturity. Finally we assume constant and deterministic interest rates which are unrealistic in dynamic financial environments in which rates fluctuate. Black Scholes it model fails to capture the distribution with higher tail probability and so addresses the limitation by means of the Levy process with generalized structure which captures more of the distribution with higher tail. And so Levy Processes make it ideal for current financial modeling in today's sophisticated market situation because of the jump component of Levy-Khintchine formula which help model fat tailed distribution more effectively leading to more accurate risk estimates.  A more robust framework for risk management based on the incorporation of discontinuities(jumps), heavy tails and skewness into modeling of financial assets has been provided by Lévy processes. The flexibility of Levy processes provides an improved representation of tail risks, and thus an invaluable tool for financial risk assessment and management.
+
+The generalized structure of Levy process addresses the limitation of the Black-Scholesit model where it doesn’t capture the distribution with heavier tail. The heavier the tail distribution implies the probability of extreme events such as crash in the market or losses. Levy Processes the jump component of Levy-Khintchine formula can model fat tailed distribution more effectively resulting in better estimates of risk. The more robust framework of risk management offered by Lévy processes, i.e. with discontinuities (jumps), heavy tails and skewness in the modeling of financial assets, is demonstrated. This flexibility makes Levy processes crucial for risk measurement and management able to portray tail risks. In risk management Value-at-Risk (VaR) estimates maximum potential loss over a period of time at a confidence interval denoted by \( \alpha \)
+
+\[
+P(X_t \leq \text{VaR}_\alpha) = \alpha,
+\]
+
+Another model which is popular in finance is jump-diffusion model basically adding jumps for pricing dynamics. As volatility is always uncertain a **jump process** models discontinuous changes in a system over time, often used in stochastic modeling to account for sudden, random events. The jump process \( J_t \) is typically defined as:
+
+\[
+J_t = \sum_{i=1}^{n} Y_i,
+\]
+
+where:
+
+- \( n \): A **Poisson process** with rate \( \lambda \), representing the number of jumps up to time \( t \).
+- \( Y_i \): The size of the \( i \)-th jump, which is drawn from a specified distribution. In financial applications, the jump process \( J_t \) is used to model abrupt price changes in asset prices, such as sudden market crashes amd large price spikes due to unexpected news.
+
+# Limitation
+
+Although Lévy processes are powerful model ,however, there are certain limitation. Firstly, constraint is that of independence in increments, which means that the variations of a Lévy process are independent of previous fluctuations. For instance, in the financial context, constant absolute aggregation of returns often leads to patterns of autocorrelation and volatility clustering which escape Lévy processes.  Secondly, independent identically distributed increments of Lévy processes complicate the jump component. Moreover, the real-word jumps: depend on previous jumps, occur in clusters. However, when it comes to high resolution jumps, even in modeling size and frequency distributions become critical which is not easy. Additionaly, the jump terms of Lévy processes for modeling heavy tails are less constrained in their flexibility. They may potentially fail to naturally model phenomena with high and heavy tails or finite moments exceeding thresholds.
+
+# Conclusion
+
+To conclude with, a large number of stochastic phenomena that include continuous trends and discontinuous jumps can be modeled by using Lévy processes effectively and mathematically. The fact that they can model with the drift, diffusion, and the jump components all, makes them applicable in so many branches in today’s world such as in the financial sector, in physics, biology, engineering and so much more. Lévy processes encompass the classical models such as Brownian motion and Poisson processes, and provide understanding of the dynamical behaviors of real world systems.Lévy processes have entirely transformed the field of risk management and option pricing in finance by overcoming the flaws of initial models that could not model fat tails or jump behavior in the market. To overcome these shortcoming, the new model have evolved & have proposed and introduced some modifications of the models such as time transformed Lévy models, stochastic volatility models, and their extensions. However, there continues to be plenty of interest in stochastic modeling and, specifically, in Lévy processes. With the enhancement of computational methods and data accessibility, the suitable range and precision of these models can be further enhanced, which in return can make an important significance for further investigation and analysis of stochastic biological systems.
+
+# References
+
+Abdel-Hameed, Mohamed. *Lévy Processes and Their Applications in Reliability and Storage*. Berlin, Heidelberg: Springer Berlin Heidelberg, 2014. [**https://doi.org/10.1007/978-3-642-40075-9**](https://doi.org/10.1007/978-3-642-40075-9).
+
+Schoutens, Wim, and Jessica Cariboni, eds. *Lévy Processes in Credit Risk*. First published: 2 January 2012. Print ISBN: 9780470743065 | Online ISBN: 9781119206521. DOI: [**10.1002/9781119206521**](https://doi.org/10.1002/9781119206521). Copyright © 2009, John Wiley & Sons Ltd.
+
+Do, K. D. (2022). *Backstepping control design for stochastic systems driven by Lévy processes*. International Journal of Control, 95(1), 68–80. DOI: [**10.1080/00207179.2020.1778793**](https://doi.org/10.1080/00207179.2020.1778793). Journal homepage: [www.tandfonline.com/journals/tcon20](https://www.tandfonline.com/journals/tcon20).
+
+Pruitt, William E. (1981). *The Growth of Random Walks and Lévy Processes*. The Annals of Probability, 9(6), 948–956. URL: [**http://www.jstor.org/stable/2243757**](http://www.jstor.org/stable/2243757).
+
+Kyprianou, Andreas E. *Universitext*. Department of Mathematical Sciences, University of Bath, Bath, UK. Springer Heidelberg New York Dordrecht London. ISBN: 978-3-642-37631-3 | eBook ISBN: 978-3-642-37632-0. DOI: [**10.1007/978-3-642-37632-0**](https://doi.org/10.1007/978-3-642-37632-0). Library of Congress Control Number: 2013958153. Mathematics Subject Classification (2010): 60G50, 60G51, 60G52.
