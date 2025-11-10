@@ -10,25 +10,6 @@ format:
 
 Here you can see a selection of my latest projects.
 
-### <a href="https://github.com/Yusuf365/My-Portfolio.github.io/tree/main/Project%207%20ML"> SPCA </a>
-
-* **Summary**: **
-* **Tools**: *R language*
-* **Conclusion**: **
-* **GitHub Repository**: [View Code](https://github.com/Yusuf365/My-Portfolio.github.io/tree/main/Project%207%20ML)
-* **Read the Analysis**: [Read paper](Project 7 ML/Simulation-spca-STA315-Project.pdf)
-* **Presentation**: [Presentation PDF](Project 7 ML/Sparse Principal Component Analysis_Presentation.pdf)
-
-### <a href="https://github.com/Yusuf365/My-Portfolio.github.io/tree/main/Project%207%20ML"> SPCA </a>
-
-* **Summary**: **
-* **Tools**: *R language*
-* **Conclusion**: **
-* **GitHub Repository**: [View Code](https://github.com/Yusuf365/My-Portfolio.github.io/tree/main/Project%207%20ML)
-* **Read the Analysis**: [Read paper](Project 7 ML/Simulation-spca-STA315-Project.pdf)
-* **Presentation**: [Presentation PDF](Project 7 ML/Sparse Principal Component Analysis_Presentation.pdf)
-
-
 ### <a href="https://github.com/Yusuf365/Victim_Crime_data_analysis.git"> Exploring Urban Crime Dynamics: Insights from Toronto Police Annual Statistical Report </a>
 
 * **Summary**: *Delve into Toronto's crime landscape from 2014 to 2022 with this analytical exploration based on the Toronto Police Annual Statistical Report. Uncover trends, patterns, and demographic insights using R language, offering valuable perspectives to shape crime prevention policies and strategies for enhancing public safety*
@@ -37,6 +18,28 @@ Here you can see a selection of my latest projects.
 * **GitHub Repository**: [View Code](https://github.com/Yusuf365/Victim_Crime_data_analysis.git)
 * **Read the Analysis**: [Read paper](https://github.com/Yusuf365/Victim_Crime_data_analysis/blob/6687795ff467b32f661bcaba9685239f97ea24a3/outputs/paper/paper.pdf)
 
+### <a href="https://github.com/Yusuf365/My-Portfolio.github.io/tree/main/Project%207%20ML"> Sparse Principal Component Analysis: Paper Reproduction</a>
+
+* **Summary**: *The paper aims at reproducing the SPCA results to show clearer interpretability than standard PCA. Using R’s elasticnet package, the study reformulates PCA as an elastic-net problem, follows the original simulation setup, and compares PCA to SPCA with two components constrained to four nonzeros each. SPCA recovers the intended factor structure, matches PCA on variance explained within tolerance, and delivers sparser, more interpretable loadings, with reproducible code.*
+* **Tools**: *R Code*
+* **GitHub Repository**: [View Code](https://github.com/Yusuf365/My-Portfolio.github.io/tree/main/Project%207%20ML)
+* **Read the Analysis**: [Read paper](Project 7 ML/Simulation-spca-STA315-Project.pdf)
+* **Presentation**: [Presentation PDF](Project 7 ML/Sparse Principal Component Analysis_Presentation.pdf)
+
+### <a href="https://github.com/Yusuf365/My-Portfolio.github.io/tree/main/Project%209"> STA312: Data Analysis Technical Report </a>
+
+* **Summary**: *This project showcases an end-to-end data analysis workflow using R, using tidyverse, dplyr, readr, ggplot2, janitor, broom, gtsummary, MASS, AER, reshape2, and knitr to clean and validate raw data, perform focused EDA, and build interpretable models across two distinct & separate datasets: airline customer satisfaction and YouTube revenue. A binomial logistic regression quantified how operational reliability and core service ratings drive satisfaction levels. On the other end, a log-linear multiple regression showed that ad impressions are the dominant determinant of revenue, with playlist views and video duration adding smaller gains. Model selection relied on AIC and likelihood-ratio tests, and diagnostics (residual and QQ plots, multicollinearity checks) supported the specifications.*
+* **Tools**: *R language*
+* **GitHub Repository**: [View Code](https://github.com/Yusuf365/My-Portfolio.github.io/tree/main/Project%209)
+* **Read the Analysis**: [Read paper](Project 9/Data-Analysis_v1.pdf)
+
+
+### <a href="https://github.com/Yusuf365/My-Portfolio.github.io/tree/main/Project%208"> Stochastic Processes: Exploring Lévy Processes </a>
+
+* **Summary**: *The project introduces Lévy processes—random motions with independent, stationary increments that include Brownian motion and Poisson jumps. Using the Lévy–Khintchine formula, the process splits movement into drift, diffusion, and jumps, allowing it to model heavy tails and capture abrupt shocks that the basic Black–Scholes model misses. In practice, jumps improve option pricing and tail-risk measures by capturing skewness and heavy tails. But markets also show volatility clustering and dependence, so a bare Lévy model falls short; add time changes or stochastic volatility and test out-of-sample. Bottom line: use a Lévy core for realism, then layer smarter dynamics for precision.*
+* **Tools**: *R Markdown*
+* **GitHub Repository**: [View Code](https://github.com/Yusuf365/My-Portfolio.github.io/tree/main/Project%208)
+* **Read the Analysis**: [Read paper](Project 8/Project Levy_Processes.pdf)
 
 
 
