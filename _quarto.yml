@@ -12,6 +12,16 @@ website:
         href: projects.qmd
       - text: Resume
         href: Mohammed_Yusuf_Shaikh_Resume_Porfolio.pdf
+      - text: Credentials
+        href: credentials.qmd
+        menu:
+          - text: Credentials page
+            href: credentials.qmd
+          - text: LSE Certificate
+            href: files/lse-certificate.pdf
+          - text: LSE Transcript
+            href: files/lse-transcript.pdf
+  
     right: 
       - text: "About me"
         href: about.qmd

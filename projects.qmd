@@ -88,4 +88,4 @@ Here you can see a selection of my latest projects.
 
 
 
-[Home](index.html) | [About](about.html) | [Resume](Mohammed_Yusuf_Shaikh_Resume_Porfolio.pdf)
+[Home](index.html) | [About](about.html) | [Resume](Mohammed_Yusuf_Shaikh_Resume_Porfolio.pdf) | [Credentials](credentials.html)
