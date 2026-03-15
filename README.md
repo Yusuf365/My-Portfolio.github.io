@@ -7,5 +7,6 @@ Welcome to my Profile which includes:
 1. About me
 2. Projects
 3. Resume
+4. Certifcates
 
 Visit the Website now: https://yusuf365.github.io/My-Portfolio.github.io/
