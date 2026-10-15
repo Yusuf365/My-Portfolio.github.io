@@ -10,6 +10,8 @@ website:
         text: Home
       - text: Projects
         href: projects.qmd
+      - text: Resume
+        href: Mohammed_Yusuf_Shaikh_Resume_Porfolio.pdf
       - text: Credentials
         href: credentials.qmd
         menu:
